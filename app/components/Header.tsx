@@ -3,11 +3,11 @@ import { Instagram } from "lucide-react";
 
 export default function Header() {
   return (
-    <header className="bg-zinc-100 dark:bg-zinc-950">
+    <header className="bg-zinc-50 dark:bg-zinc-950 w-screen max-md:shadow-2xl">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          <div className="md:flex md:items-center md:gap-12">
-            <a className="block text-teal-600" href="#">
+          <div className="md:flex md:items-center md:gap-12 mt-10">
+            <a className="block text-sky-600" href="/">
               <span className="sr-only">Home</span>
               <Image
                 src="/logo-invert.png"

@@ -3,7 +3,7 @@ import { ChevronUp, Instagram, Church } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-zinc-100 dark:bg-zinc-950">
+    <footer className="bg-zinc-50 dark:bg-zinc-950 w-screen max-md:shadow-2xl">
       <div className="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-6">
         <div className="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
           <a
@@ -11,7 +11,7 @@ export default function Footer() {
             href="#MainContent"
           >
             <span className="sr-only">Voltar para o topo</span>
-            <ChevronUp />
+            <ChevronUp className="dark:text-zinc-950"/>
           </a>
         </div>
 
@@ -26,7 +26,7 @@ export default function Footer() {
                 /> 
             </div>
 
-            <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 lg:text-left">
+            <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-zinc-500 dark:text-zinc-100 lg:text-left">
               A identidade da orquestra Shalom é essa, transmitir a paz
               do nosso Pai com o nosso louvor.
             </p>
@@ -65,8 +65,8 @@ export default function Footer() {
           </ul>
         </div>
 
-        <p className="mt-12 text-center text-sm text-gray-500 lg:text-right">
-          Copyright &copy; 2024. Todos os direitos reservados.
+        <p className="mt-12 text-center text-sm text-zinc-500 dark:text-zinc-300 lg:text-right">
+          <a href="https://spiral-sbm.vercel.app">Copyright &copy; 2024.</a> Todos os direitos reservados.
         </p>
       </div>
     </footer>

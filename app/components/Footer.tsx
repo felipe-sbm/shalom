@@ -3,11 +3,12 @@ import { ChevronUp, Instagram, Church } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-zinc-100 dark:bg-zinc-950 w-screen">
-      <div className="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-6">
-        <div className="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
+    <footer className="bg-zinc-100 dark:bg-zinc-950">
+      <div className="relative mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+        <div className="absolute end-8 top-8 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
           <a
-            className="inline-block rounded-full bg-sky-500 p-2 text-white shadow transition hover:bg-sky-600/75 sm:p-3 lg:p-4"
+            className="inline-block rounded-full bg-sky-500 p-2 mt-2 text-white shadow transition hover:bg-sky-600/75 sm:p-3 lg:p-4"
+            title="Voltar para o topo"
             href="#MainContent"
           >
             <span className="sr-only">Voltar para o topo</span>
@@ -20,6 +21,7 @@ export default function Footer() {
             <div className="flex justify-center lg:justify-start dark:invert">
                 <Image
                 src="/logo-invert.png"
+                title="Logo da Orquestra Shalom"
                 alt="Logo da Orquestra Shalom"
                 width={200}
                 height={200}

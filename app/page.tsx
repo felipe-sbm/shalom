@@ -20,9 +20,10 @@ export default function Home() {
               Transmitindo a paz do nosso Pai através da música e do louvor.
             </p>
 
-            <div className="mt-8 flex flex-wrap justify-left gap-4">
+            <div className="mt-8 flex flex-wrap lg:justify-left md:justify-center gap-4">
               <a
                 className="block w-full rounded bg-sky-500 px-12 py-3 text-sm font-medium text-white dark:text-zinc-950 shadow-xl hover:bg-sky-600/75 focus:outline-none focus:ring active:bg-sky-500 sm:w-auto text-center"
+                title="Clique para entrar na página da orquestra"
                 href="/pages/orquestra"
               >
                 Conheça a orquestra
@@ -43,7 +44,7 @@ export default function Home() {
       </section>
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 pb-6">
         <div className="lg:h-32 h-16 rounded-lg bg-gray-200 lg:col-span-2"></div>
-        <div className="lg:h-32 h-16 rounded-lg bg-gray-200"></div>
+        <div className="lg:h-32 lg:hidden h-16 rounded-lg bg-gray-200"></div>
       </div>
       <div>
         <h1 className="text-4xl dark:text-zinc-300 font-bold">

@@ -8,13 +8,29 @@ export default function Footer() {
       <div className="flex relative mx-auto max-w-screen-xl justify-between space-y-8 px-4 py-10 pt-16 sm:px-6 lg:space-y-16 lg:px-8">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div className="">
-            <div className="flex justify-center lg:justify-start dark:invert">
+            <div className="flex justify-center lg:justify-start">
               <Image
                 src="/logo-invert.png"
                 title="Logo da Orquestra Shalom"
                 alt="Logo da Orquestra Shalom"
+                className="dark:invert"
                 width={150}
                 height={100}
+              />
+              <Image
+                src="/divider.png"
+                alt="Linha de divisão de conteúdo"
+                className="dark:invert"
+                draggable="false"
+                width={40}
+                height={20}
+              />
+              <Image
+                src="/23-anos.png"
+                title="23 anos da Orquestra Shalom"
+                alt="Imagem com dois balões com um número 2 e o número 3, simbolizando 23 anos da Orquestra Shalom"
+                width={150}
+                height={50}
               />
             </div>
 
@@ -128,6 +144,7 @@ export default function Footer() {
                     <Image
                       src="/casa-do-bebe.svg"
                       alt="Logo da Casa do Bebê"
+                      draggable="false"
                       width={120}
                       height={120}
                     />
@@ -143,6 +160,7 @@ export default function Footer() {
                     <Image
                       src="/marcoscell.svg"
                       alt="Logo do Marcos Cell"
+                      draggable="false"
                       width={120}
                       height={120}
                     />
@@ -151,7 +169,7 @@ export default function Footer() {
               </ul>
             </div>
             <div className="absolute end-8 top-8 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
-            <BotaoVoltarAoTopo Texto="Voltar ao Topo" />
+              <BotaoVoltarAoTopo Texto="Voltar ao Topo" />
             </div>
           </div>
         </div>

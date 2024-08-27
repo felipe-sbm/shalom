@@ -31,7 +31,7 @@ export default function Header() {
               title="Logo da Orquestra Shalom (ao clicar volta para o início)"
               alt="Logo da Orquestra Shalom (ao clicar volta para o início)"
               width={170}
-              height={200}
+              height={128}
             />
           </a>
         </div>

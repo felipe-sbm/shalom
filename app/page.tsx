@@ -35,16 +35,16 @@ export default function Home() {
               <Image
                 src="/album.png"
                 alt="Album de fotos da Orquestra Shalom"
-                width={1000}
-                height={1000}
+                width={640}
+                height={430}
               />
             </div>
           </div>
         </div>
       </section>
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 pb-6">
-        <div className="lg:h-32 h-16 rounded-lg bg-gray-200 lg:col-span-2"></div>
-        <div className="lg:h-32 lg:hidden h-16 rounded-lg bg-gray-200"></div>
+        <div className="lg:h-32 h-16 rounded-lg bg-gray-200 lg:col-span-2 bg-[url('/cover.jpg')] bg-cover bg-center"/>
+        <div className="lg:h-32 h-16 rounded-lg bg-gray-200 bg-[url('/vozes.jpg')] bg-cover bg-top"/>
       </div>
       <div>
         <h1 className="text-4xl dark:text-zinc-300 font-bold">
@@ -70,8 +70,8 @@ export default function Home() {
         </p>
       </div>
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 py-6">
-        <div className="lg:h-32 h-16 rounded-lg bg-gray-200"></div>
-        <div className="lg:h-32 h-16 rounded-lg bg-gray-200 lg:col-span-2"></div>
+        <div className="lg:h-32 h-16 rounded-lg bg-gray-200 bg-[url('/saxofones.jpg')] bg-cover bg-center sm:bg-bottom"/>
+        <div className="lg:h-32 h-16 rounded-lg bg-gray-200 lg:col-span-2 bg-[url('/trombones.jpg')] bg-cover bg-center"/>
       </div>
       <div className="mb-6">
         <h1 className="text-4xl dark:text-zinc-300 font-bold">
@@ -88,7 +88,11 @@ export default function Home() {
         <p className="mt-4 dark:text-zinc-300 sm:text-md/relaxed">
           Todos os domingos à partir das 18:00H, na: Rua Georgino Avelino, 345 -
           Santos Reis, Parnamirim - RN, 59141-045 Não se esqueça de conferir a
-          disponibilidade na aba <a href="/pages/cronograma" className="underline text-sky-500">cronograma</a>.
+          disponibilidade na aba{" "}
+          <a href="/pages/cronograma" className="underline text-sky-500">
+            cronograma
+          </a>
+          .
         </p>
       </div>
     </div>

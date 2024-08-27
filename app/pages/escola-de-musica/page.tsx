@@ -15,19 +15,19 @@ export default function EscolaDeMusica() {
     <main>
       <section>
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-          <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-            <div className="relative overflow-hidden rounded-xl sm:h-80 lg:order-last lg:h-full">
+          <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 place-content-center mt-5 lg:mt-1">
+            <div className="relative overflow-hidden rounded-xl lg:py-5 sm:h-80 lg:order-last lg:h-full">
               <Image
                 src="/orchestra-3.png"
-                alt="Logo da Orquestra Shalom"
+                alt="Foto da orquestra com os músicos"
                 width={1000}
                 height={600}
                 className="object-fill h-215 shadow-xl rounded-xl"
               />
             </div>
 
-            <div className="lg:py-24">
-              <h2 className="text-3xl dark:text-zinc-100 font-extrabold sm:text-5xl">
+            <div className="lg:py-5">
+              <h2 className="text-xl dark:text-zinc-100 font-extrabold sm:text-6xl">
                 Venha fazer parte da nossa família
               </h2>
 
@@ -41,7 +41,7 @@ export default function EscolaDeMusica() {
 
               <a
                 href="https://www.instagram.com/orquestrashalom/"
-                className="mt-8 inline-block shadow-xl rounded bg-sky-500 px-12 py-3 text-sm font-medium text-white transition hover:bg-sky-700 focus:outline-none focus:ring focus:ring-yellow-400"
+                className="mt-8 inline-block shadow-xl rounded bg-sky-500 px-12 py-3 text-sm font-medium text-zinc-50 dark:text-zinc-950 transition hover:bg-sky-700 focus:outline-none focus:ring focus:ring-yellow-400"
               >
                 Consultar disponibilidade
               </a>
@@ -76,64 +76,70 @@ export default function EscolaDeMusica() {
 
             <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
               <a className="block shadow-lg rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
-                <GraduationCap className="text-sky-500 dark:text-sky-100" />
-                <h2 className="mt-2 font-semibold font-serif">Formação</h2>
+                <GraduationCap className="text-sky-500 dark:text-sky-300" />
+                <h2 className="mt-2 font-semibold font-serif text-zinc-600 dark:text-zinc-50">
+                  Formação
+                </h2>
 
-                <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-zinc-500 dark:text-zinc-100">
+                <p className="hidden sm:mt-1 sm:block sm:text-sm text-zinc-500 dark:text-zinc-100">
                   Aprenda e tire dúvidas com quem realmente entende.
                 </p>
               </a>
 
               <a className="block shadow-lg rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
-                <Music className="text-sky-500 dark:text-sky-100" />
-                <h2 className="mt-2 font-semibold font-serif">
+                <Music className="text-sky-500 dark:text-sky-300" />
+                <h2 className="mt-2 font-semibold font-serif text-zinc-600 dark:text-zinc-50">
                   Teoria e pŕatica
                 </h2>
 
-                <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-zinc-500 dark:text-zinc-100">
+                <p className="hidden sm:mt-1 sm:block sm:text-sm text-zinc-500 dark:text-zinc-100">
                   Em um único local você irá aprender as duas coisas, sem a
                   necessidade de sair.
                 </p>
               </a>
 
               <a className="block shadow-lg rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
-                <Sprout className="text-sky-500 dark:text-sky-100" />
-                <h2 className="mt-2 font-semibold font-serif">Crescimento</h2>
+                <Sprout className="text-sky-500 dark:text-sky-300" />
+                <h2 className="mt-2 font-semibold font-serif text-zinc-600 dark:text-zinc-50">
+                  Crescimento
+                </h2>
 
-                <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-zinc-500 dark:text-zinc-100">
+                <p className="hidden sm:mt-1 sm:block sm:text-sm text-zinc-500 dark:text-zinc-100">
                   Excelente para iniciantes na área, ou quem busca aprimorar.
                 </p>
               </a>
 
               <a className="block shadow-lg rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
-                <Medal className="text-sky-500 dark:text-sky-100" />
-                <h2 className="mt-2 font-semibold font-serif">
+                <Medal className="text-sky-500 dark:text-sky-300" />
+                <h2 className="mt-2 font-semibold font-serif text-zinc-600 dark:text-zinc-50">
                   Professores selecionados
                 </h2>
 
-                <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-zinc-500 dark:text-zinc-100">
+                <p className="hidden sm:mt-1 sm:block sm:text-sm text-zinc-500 dark:text-zinc-100">
                   Independente da sua escolha de instrumento, temos bons
                   professores.
                 </p>
               </a>
 
               <a className="block shadow-lg rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
-                <CalendarClock className="text-sky-500 dark:text-sky-100" />
-                <h2 className="mt-2 font-semibold font-serif">Curto prazo</h2>
+                <CalendarClock className="text-sky-500 dark:text-sky-300" />
+                <h2 className="mt-2 font-semibold font-serif text-zinc-600 dark:text-zinc-50">
+                  Curto prazo
+                </h2>
 
-                <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-zinc-500 dark:text-zinc-100">
+                <p className="hidden sm:mt-1 sm:block sm:text-sm text-zinc-500 dark:text-zinc-100">
                   As aulas teórias terminam em 6 meses, e as práticas de 1 à 2
                   anos.
                 </p>
               </a>
 
               <a className="block shadow-lg rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
-                <FishSymbol className="text-sky-500 dark:text-sky-100" />
-                <h2 className="mt-2 font-semibold font-serif">
+                <FishSymbol className="text-sky-500 dark:text-sky-300" />
+                <h2 className="mt-2 font-semibold font-serif text-zinc-600 dark:text-zinc-50">
                   Ingressão na nossa igreja
                 </h2>
 
-                <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-zinc-500 dark:text-zinc-100">
+                <p className="hidden sm:mt-1 sm:block sm:text-sm text-zinc-500 dark:text-zinc-100">
                   Ao terminar as aulas, você pode ingressar na Boa Vista 1.
                 </p>
               </a>

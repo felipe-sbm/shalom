@@ -17,7 +17,10 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-zinc-100 dark:bg-zinc-950 shadow-md" id="target-section">
+    <header
+      className="bg-zinc-100 dark:bg-zinc-950 shadow-md"
+      id="target-section"
+    >
       <nav
         className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 flex h-16 lg:justify-between items-center"
         aria-label="Global"
@@ -50,7 +53,7 @@ export default function Header() {
             <ul className="flex items-center gap-6 text-sm md:hidden lg:flex">
               <li>
                 <a
-                  className="text-zinc-500 transition hover:text-sky-500/75"
+                  className="text-zinc-500 dark:text-zinc-300 transition hover:text-sky-500/75"
                   href="/"
                 >
                   {" "}
@@ -59,7 +62,7 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  className="text-zinc-500 transition hover:text-sky-500/75"
+                  className="text-zinc-500 dark:text-zinc-300 transition hover:text-sky-500/75"
                   href="/pages/orquestra"
                 >
                   {" "}
@@ -68,7 +71,7 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  className="text-zinc-500 transition hover:text-sky-500/75"
+                  className="text-zinc-500 dark:text-zinc-300 transition hover:text-sky-500/75"
                   href="/pages/cronograma"
                 >
                   {" "}
@@ -77,7 +80,7 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  className="text-zinc-500 transition hover:text-sky-500/75"
+                  className="text-zinc-500 dark:text-zinc-300 transition hover:text-sky-500/75"
                   href="/pages/escola-de-musica"
                 >
                   {" "}
@@ -86,7 +89,7 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  className="text-zinc-500 transition hover:text-sky-500/75"
+                  className="text-zinc-500 dark:text-zinc-300 transition hover:text-sky-500/75"
                   href="/pages/componentes"
                 >
                   {" "}
@@ -99,7 +102,7 @@ export default function Header() {
         <div className="lg:flex gap-4 hidden">
           <a
             href="https://www.instagram.com/orquestrashalom/"
-            className="text-sky-500 transition hover:text-sky-600/75"
+            className="text-zinc-500 dark:text-zinc-300 transition hover:text-sky-500/75"
             title="Link para o Instagram da orquestra"
           >
             <Instagram />

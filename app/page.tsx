@@ -44,10 +44,10 @@ export default function Home() {
         </div>
       </section>
       <div className="grid grid-cols-3 gap-4 lg:gap-8 pb-6">
-        <div className="lg:h-32 h-16 rounded-lg bg-gray-200 col-span-2 bg-[url('/cover.jpg')] bg-cover bg-center" />
-        <div className="lg:h-32 h-16 rounded-lg bg-gray-200 bg-[url('/vozes.jpg')] bg-cover bg-top" />
+        <div className="lg:h-32 h-20 rounded-lg bg-gray-200 col-span-2 bg-[url('/cover.jpg')] bg-cover bg-center" />
+        <div className="lg:h-32 h-20 rounded-lg bg-gray-200 bg-[url('/vozes.jpg')] bg-cover bg-top" />
       </div>
-      <div className="mx-10 my-12">
+      <div className="lg:mx-10 my-12">
         <h1 className="text-4xl dark:text-zinc-300 font-bold">
           Não são apenas
           <strong className="font-extrabold text-sky-500"> partituras</strong>.
@@ -85,10 +85,10 @@ export default function Home() {
         </p>
       </div>
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 py-6">
-        <div className="lg:h-32 h-16 rounded-lg bg-gray-200 bg-[url('/saxofones.jpg')] bg-cover bg-center sm:bg-bottom" />
-        <div className="lg:h-32 h-16 rounded-lg bg-gray-200 lg:col-span-2 bg-[url('/trombones.jpg')] bg-cover bg-center" />
+        <div className="lg:h-32 h-24  rounded-lg bg-gray-200 bg-[url('/saxofones.jpg')] bg-cover bg-center sm:bg-center" />
+        <div className="lg:h-32 h-24 rounded-lg bg-gray-200 lg:col-span-2 bg-[url('/trombones.jpg')] bg-cover bg-center" />
       </div>
-      <div className="mx-10 my-12">
+      <div className="lg:mx-10 my-12">
         <h1 className="text-4xl dark:text-zinc-300 font-bold">
           Venha nos visitar!
         </h1>

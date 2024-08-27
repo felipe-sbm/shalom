@@ -17,7 +17,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-zinc-100 dark:bg-zinc-950" id="target-section">
+    <header className="bg-zinc-100 dark:bg-zinc-950 shadow-md" id="target-section">
       <nav
         className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 flex h-16 lg:justify-between items-center"
         aria-label="Global"

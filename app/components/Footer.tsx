@@ -4,7 +4,7 @@ import { VoltarAoTopo, BotaoVoltarAoTopo } from "./VoltarAoTopo";
 
 export default function Footer() {
   return (
-    <footer className="bg-zinc-100 dark:bg-zinc-950">
+    <footer className="bg-zinc-100 dark:bg-zinc-950 shadow-2xl">
       <div className="flex relative mx-auto max-w-screen-xl justify-between space-y-8 px-4 py-10 pt-16 sm:px-6 lg:space-y-16 lg:px-8">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div className="">

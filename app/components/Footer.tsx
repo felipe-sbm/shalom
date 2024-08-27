@@ -4,9 +4,9 @@ import { ChevronUp, Instagram, Church, Youtube } from "lucide-react";
 export default function Footer() {
   return (
     <footer className="bg-zinc-100 dark:bg-zinc-950">
-      <div className="flex relative mx-auto max-w-screen-xl justify-between space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
+      <div className="flex relative mx-auto max-w-screen-xl justify-between space-y-8 px-4 py-10 pt-16 sm:px-6 lg:space-y-16 lg:px-8">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-          <div>
+          <div className="">
             <div className="flex justify-center lg:justify-start dark:invert">
               <Image
                 src="/logo-invert.png"
@@ -22,7 +22,7 @@ export default function Footer() {
               Pai com o nosso louvor.
             </p>
 
-            <ul className="mt-8 flex gap-6">
+            <ul className="mt-8 flex gap-6 justify-center lg:justify-start">
               <li>
                 <a
                   href="https://www.instagram.com/orquestrashalom/"
@@ -60,11 +60,11 @@ export default function Footer() {
 
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
             <div>
-              <p className="font-medium text-zinc-600 transition dark:text-zinc-100">
+              <p className="font-medium text-zinc-600 transition dark:text-zinc-100 text-center lg:text-left">
                 Navegação
               </p>
 
-              <ul className="mt-6 space-y-4 text-sm">
+              <ul className="mt-6 space-y-4 text-sm text-center lg:text-left">
                 <li>
                   <a
                     href="/"
@@ -113,11 +113,11 @@ export default function Footer() {
             </div>
 
             <div>
-              <p className="font-medium text-zinc-600 transition dark:text-zinc-100">
-                Patrocinadores máster
+              <p className="font-medium text-zinc-600 transition dark:text-zinc-100 text-center lg:text-left">
+                Patrocinadores Máster
               </p>
 
-              <ul className="mt-6 space-y-4 text-sm">
+              <ul className="mt-6 space-y-4 text-sm itens-center lg:itens-left">
                 <li>
                   <a
                     href="https://www.instagram.com/casadobebe.parnamirim/"
@@ -162,14 +162,14 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div>
+      <div className="-mt-2 mb-0.5 mx-auto max-w-7xl px-4 sm:px-6 lg:space-y-16 lg:px-8">
           {" "}
-          <p className="text-xs text-zinc-500 dark:text-zinc-100 font-serif">
-            &copy; 2022. Spiral SBM. Todos os direitos reservados.
+          <p className="text-xs text-center lg:text-right text-zinc-500 dark:text-zinc-100 font-serif">
+            &copy; 2024. Spiral SBM. Todos os direitos reservados.
           </p>
         </div>
       <div className="bg-sky-500 place-content-center h-8">
-        <p className=" font-bold text-sm text-zinc-50 dark:text-zinc-950 font-serif text-center">
+        <p className="font-bold lg:text-sm text-xs text-zinc-50 dark:text-zinc-950 font-serif text-center">
           Desde 2001 louvando ao Senhor com honra e muita fé.
         </p>
       </div>

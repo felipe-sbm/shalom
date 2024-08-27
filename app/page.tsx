@@ -42,8 +42,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 pb-6">
-        <div className="lg:h-32 h-16 rounded-lg bg-gray-200 lg:col-span-2 bg-[url('/cover.jpg')] bg-cover bg-center"/>
+      <div className="grid grid-cols-3 gap-4 lg:gap-8 pb-6">
+        <div className="lg:h-32 h-16 rounded-lg bg-gray-200 col-span-2 bg-[url('/cover.jpg')] bg-cover bg-center"/>
         <div className="lg:h-32 h-16 rounded-lg bg-gray-200 bg-[url('/vozes.jpg')] bg-cover bg-top"/>
       </div>
       <div>

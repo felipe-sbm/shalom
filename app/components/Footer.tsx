@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ChevronUp, Instagram, Church, Youtube } from "lucide-react";
+import { VoltarAoTopo, BotaoVoltarAoTopo } from "./VoltarAoTopo";
 
 export default function Footer() {
   return (
@@ -150,24 +151,17 @@ export default function Footer() {
               </ul>
             </div>
             <div className="absolute end-8 top-8 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
-              <a
-                className="inline-block rounded-full bg-sky-500 p-2 mt-2 text-white shadow transition hover:bg-sky-600/75 sm:p-3 lg:p-4"
-                title="Voltar para o topo"
-                href="#MainContent"
-              >
-                <span className="sr-only">Voltar para o topo</span>
-                <ChevronUp className="dark:text-zinc-950" />
-              </a>
+            <BotaoVoltarAoTopo Texto="Voltar ao Topo" />
             </div>
           </div>
         </div>
       </div>
       <div className="-mt-2 mb-0.5 mx-auto max-w-7xl px-4 sm:px-6 lg:space-y-16 lg:px-8">
-          {" "}
-          <p className="text-xs text-center lg:text-right text-zinc-500 dark:text-zinc-100 font-serif">
-            &copy; 2024. Spiral SBM. Todos os direitos reservados.
-          </p>
-        </div>
+        {" "}
+        <p className="text-xs text-center lg:text-right text-zinc-500 dark:text-zinc-100 font-serif">
+          &copy; 2024. Spiral SBM. Todos os direitos reservados.
+        </p>
+      </div>
       <div className="bg-sky-500 place-content-center h-8">
         <p className="font-bold lg:text-sm text-xs text-zinc-50 dark:text-zinc-950 font-serif text-center">
           Desde 2001 louvando ao Senhor com honra e muita fé.

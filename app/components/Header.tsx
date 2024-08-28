@@ -102,7 +102,7 @@ export default function Header() {
         <div className="lg:flex gap-4 hidden">
           <a
             href="https://www.instagram.com/orquestrashalom/"
-            className="text-zinc-500 dark:text-zinc-300 transition hover:text-sky-500/75"
+            className="text-sky-500 transition hover:text-sky-500/75"
             title="Link para o Instagram da orquestra"
           >
             <Instagram />

@@ -42,7 +42,7 @@ export default function Cronograma() {
             </ul>
 
             <a
-              href="#"
+              href="https://calendar.google.com/calendar/"
               className="mt-8 block rounded-full border border-sky-500 bg-sky-500 px-12 py-3 text-center text-md font-semibold font-serif text-zinc-50 dark:text-zinc-950 hover:bg-sky-500/75 hover:ring-1 hover:ring-sky-500/75 focus:outline-none focus:ring active:text-sky-400"
             >
               Save the date
